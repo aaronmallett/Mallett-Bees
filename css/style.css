@@ -1,0 +1,241 @@
+body {
+	background: #d3d3d3;
+}
+
+@font-face {
+	font-family: Minion-bd-it;
+	src: url(../fonts/MinionPro-BoldIt.otf) format('opentype');
+}
+
+/****************************
+NAV
+****************************/
+
+nav {
+	width: 100%;
+	height:130px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+nav img {
+	text-align: center;
+	width: 288px;
+	height: 265px;
+	overflow: visible;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+nav ul {
+	position: absolute;
+	right: 0;
+	top: 90px;
+	margin-right: 10%;
+}
+
+nav ul li {
+	float: left;
+	padding-left: 10px;
+	list-style: none;
+
+}
+
+nav ul li a {
+	font-family:'Arvo', serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #333;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #E6CA50;
+}
+
+nav > a {
+	position: absolute;
+	left: 0;
+	top: 80px;
+	margin-left: 10%;
+	font-family:'Arvo', serif;
+	font-size: 2em;
+	color: #333;
+}
+
+/****************************
+HEADER
+****************************/
+
+header {
+	width: 100%;
+	background: url(../images/header-bg.jpg)no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin-top: -20px;
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+header h2 {
+	font-size: 2.5em;
+    color: white;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0;
+    
+}
+
+
+
+header span {
+	font-size: 4.1em;
+    color: #eacd4f;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    line-height: 58pt;
+    position: relative;
+}
+
+header em {
+	font-family: 'Minion-bd-it', sans-serif;
+}
+
+header span:before {
+	content: " ";
+    width: 60px;
+    height: 1px;
+    border-bottom: solid white 3px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -240px;
+}
+
+header span:after {
+ 	content: " ";
+    width: 60px;
+    height: 1px;
+    border-bottom: solid white 3px;
+    position: absolute;
+    top: 40px;
+    right: 50%;
+    margin-right: -240px;
+
+}
+
+header p {
+	font-size: 2.5em;
+    color: white;
+    line-height: 20pt;
+    display: block;
+    text-align: center;
+    line-height: 24pt;
+}
+
+
+/****************************
+CONTAINER
+****************************/
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#wrapper .row {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.item-box {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.odd {
+	background: #968c60;
+}
+
+.even {
+	background: #4c4c4c;
+}
+
+.small-jar {
+	height:166.654px;
+	width:132.366px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -83.327px;
+	margin-left: -66.183px;
+}
+
+.med-jar {
+	height:206.386px;
+	width:116.525px;
+	position: absolute;
+	top: 50%;
+    margin-top: -103.1875px;
+    left: 50%;
+    margin-left: -58.2625px;
+}
+
+.large-jar {
+	height: 266.383px;
+	width: 150.395px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -133.1915px;
+	margin-left: -75.1975px;
+}
+
+.price-label {
+	clear:both;
+	width: 300px;
+	height: 93px;
+	background: #ededed;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+.price-label h2 {
+	margin: 0;
+	font-size:1.5em;
+	margin-bottom: 17px;
+}
+
+.price-label a {
+	color: #333;
+    font-size: 1.5em;
+    font-style: italic;
+    /*background: #EACD4F;*/
+    border: solid 2px #333;
+    background: url(../images/label-bg-btn.jpg)no-repeat;
+    background-size: cover;
+    background-position: -160px;
+    padding: 5px 14px;
+    transition: ease-in-out all 0.5s;
+}
+
+.price-label a:hover {
+	text-decoration: none !important;
+	background-position: 0px;
+}
+
+.price-label a:active {
+	text-decoration: none !important;
+}
+
+
+
